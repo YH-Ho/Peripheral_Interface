@@ -1,6 +1,6 @@
 SOURCE  := $(wildcard *.c) $(wildcard *.cpp)
 OBJS    := $(patsubst %.c,%.o,$(patsubst %.cpp,%.o,$(SOURCE)))
-TARGET  := serial-loopback
+TARGET  := disk_rw_test
 CC      := arm-linux-gnueabihf-gcc
 CXX     :=
 DEFINES :=

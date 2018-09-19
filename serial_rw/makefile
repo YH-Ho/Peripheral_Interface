@@ -1,6 +1,6 @@
 SOURCE  := $(wildcard *.c) $(wildcard *.cpp)
 OBJS    := $(patsubst %.c,%.o,$(patsubst %.cpp,%.o,$(SOURCE)))
-TARGET  := disk-rw-test
+TARGET  := serial_rw
 CC      := arm-linux-gnueabihf-gcc
 CXX     :=
 DEFINES :=
